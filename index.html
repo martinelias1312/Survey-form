@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header>
+
+            <h1 id="title">
+                Quiz about J.R.R. Tolkien
+            </h1>
+            <p id="description">
+                This quiz represents your knowledge about his life and his fiction bibliography.
+            </p>
+        </header>
+
+        <form action="" id="survey-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">
+                    Name
+                </label>
+                <input type="text" name="" id="name" placeholder="Enter your name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">
+                    Email
+                </label>
+                <input type="email" name="" id="email" class="form-control" placeholder="@" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="number" id="number-label">
+                    Age
+                </label>
+                <input type="number" name="" id="number" class="form-control" placeholder="12" min="12" max="99">
+            </div>
+            
+            <div class="form-group">
+                <p>Do you know J.R.R. Tolkien ?</p>
+                <select name="" id="dropdown">
+                    <option disabled="" selected="" value="" class="form-control">Select an option</option>
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Who was J.R.R. Tolkien ? <span class="clue">(Check all that apply)</span></p>
+                <label for="writer">
+                    <input type="checkbox" name="who" value="writer" class="input-checkbox">English writer
+                </label>   
+                <label for="poet">
+                    <input type="checkbox" name="who" value="poet" class="input-checkbox">Poet
+                </label>
+                <label for="philologist">
+                    <input type="checkbox" name="who" value="philologist" class="input-checkbox">Philologist
+                </label>
+                <label for="academic">
+                    <input type="checkbox" name="who" value="academic" class="input-checkbox">Academic
+                </label>  
+            </div>
+
+            <div class="form-group">
+                <p>Which of these publications are not fiction ?</p>
+                <label for="publications">
+                    <input type="radio" name="publications" value="hobbit" class="input-radio">Hobbit
+                </label>
+                <label for="publications">
+                    <input type="radio" name="publications" value="devils" class="input-radio">The Devil´s Coach Horses
+                </label>
+                <label for="publications">
+                    <input type="radio" name="publications" value="tree" class="input-radio">Tree and Leaf
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Send us your feedback!</p>
+                <textarea name="feedback" id="" rows="3" placeholder="Enter your feedback here.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
