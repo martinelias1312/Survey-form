@@ -18,6 +18,7 @@ body {
     font-size: 1em;
     background: url(https://wallpapercave.com/download/lord-of-the-rings-wallpaper-1920x1080-wp2861928) no-repeat;
     color: var(--color-white);
+    background-size: 100%;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 
 header {
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #title {
